@@ -5,7 +5,6 @@ body {
 
 
 h2 {
-    position: relative;
     color: #1762a4;
     background: #33CCFF;
     font-size: 24px;
@@ -23,11 +22,15 @@ b {
     text-decoration: none;
 }
 
+.about {
+    position: relative;
+}
+
 img {
     position: absolute;
     max-width: 240px;
-    margin-right: 12px;
     right: 0;
+    top: 54px;
     z-index: 1;
 }
 
